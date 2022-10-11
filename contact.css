@@ -1,0 +1,435 @@
+body {
+    margin: auto;
+    background: #eaeaea;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.info p {
+    text-align: center;
+    color: #999;
+    text-transform: none;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 2px
+}
+
+.info i {
+    color: #F6AA93;
+}
+
+form h1 {
+    font-size: 18px;
+    background: #F6AA93 none repeat scroll 0% 0%;
+    color: rgb(255, 255, 255);
+    padding: 22px 25px;
+    border-radius: 5px 5px 0px 0px;
+    margin: auto;
+    text-shadow: none;
+    text-align: left
+}
+
+form {
+    border-radius: 5px;
+    max-width: 700px;
+    width: 100%;
+    margin: 5% auto;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+p span {
+    color: #F00;
+}
+
+p {
+    margin: 0px;
+    font-weight: 500;
+    line-height: 2;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #666;
+    text-shadow: 1px 1px 0px #FFF;
+    margin: 50px 0px 0px 0px
+}
+
+input {
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    width: 75%;
+    height: 40px;
+    float: left;
+    padding: 0px 15px;
+}
+
+a {
+    text-decoration: inherit
+}
+
+textarea {
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #EEE;
+    margin: 0;
+    width: 75%;
+    height: 130px;
+    float: left;
+    padding: 0px 15px;
+}
+
+.form-group {
+    overflow: hidden;
+    clear: both;
+}
+
+.icon-case {
+    width: 35px;
+    float: left;
+    border-radius: 5px 0px 0px 5px;
+    background: #eeeeee;
+    height: 42px;
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+}
+
+i {
+    color: #555;
+}
+
+.contentform {
+    padding: 40px 30px;
+}
+
+.bouton-contact {
+    background-color: #81BDA4;
+    color: #FFF;
+    text-align: center;
+    width: 100%;
+    border: 0;
+    padding: 17px 25px;
+    border-radius: 0px 0px 5px 5px;
+    cursor: pointer;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.leftcontact {
+    width: 49.5%;
+    float: left;
+    border-right: 1px dotted #CCC;
+    box-sizing: border-box;
+    padding: 0px 15px 0px 0px;
+}
+
+.rightcontact {
+    width: 49.5%;
+    float: right;
+    box-sizing: border-box;
+    padding: 0px 0px 0px 15px;
+}
+
+.validation {
+    display: none;
+    margin: 0 0 10px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #DE5959;
+}
+
+#sendmessage {
+    border: 1px solid #fff;
+    display: none;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 600;
+    margin-bottom: 30px;
+    background-color: #EBF6E0;
+    color: #5F9025;
+    border: 1px solid #B3DC82;
+    padding: 13px 40px 13px 18px;
+    border-radius: 3px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.03);
+}
+
+#sendmessage.show,
+.show {
+    display: block;
+}
+
+/* Header*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #34465d; */
+}
+
+
+ul.menu {
+    display: inline-block;
+    list-style-type: none;
+}
+
+li.menu_list {
+    height: 85px;
+    width: 85px;
+    position: relative;
+}
+
+li.menu_list .front,
+a.side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 86px;
+    width: 100%;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .5s ease-out;
+    cursor: pointer;
+}
+
+li.menu_list .front {
+    background-color: #34465d;
+    color: #FFFC00;
+    transform-origin: 0 0;
+}
+
+a.side {
+    background-color: #FFFC00;
+    color: #34465d;
+    transform-origin: 0 0 85px;
+    transform: rotateY(-90deg);
+}
+
+li.menu_list:hover a.side {
+    transform: rotateY(0deg);
+}
+
+li.menu_list:hover .front {
+    transform: rotateY(90deg);
+}
+
+
+
+
+
+
+
+/* Footer */
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+* {
+    font-family: Roboto;
+}
+
+.footer-distributed {
+    background: #444;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    font: bold 16px sans-serif;
+    text-align: left;
+    padding: 50px 60px 40px;
+    overflow: hidden;
+}
+
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    float: left;
+}
+
+/* The company logo */
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Roboto', cursive;
+    margin: 0 0 10px;
+}
+
+.footer-distributed h3 span {
+    color: #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons {
+    margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    float: right;
+}
+
+.footer-distributed .footer-right p {
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 42px 0 0;
+    color: #ffffff;
+}
+
+/* The contact form */
+
+.footer-distributed form {
+    display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea {
+    display: block;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+
+    font: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    color: #d1d2d2;
+
+    width: 400px;
+    padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+    color: #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+    color: #5c666b;
+    opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder {
+    color: #5c666b;
+}
+
+
+.footer-distributed form input {
+    height: 55px;
+    margin-bottom: 15px;
+}
+
+.footer-distributed form textarea {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.footer-distributed form button {
+    border-radius: 3px;
+    background-color: #33383b;
+    color: #ffffff;
+    border: 0;
+    padding: 15px 50px;
+    font-weight: bold;
+    float: right;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-company-name {
+        font-size: 12px;
+    }
+
+    .footer-distributed form input,
+    .footer-distributed form textarea {
+        width: 250px;
+    }
+
+    .footer-distributed form button {
+        padding: 10px 35px;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .footer-distributed {
+        padding: 30px;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right {
+        float: none;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .footer-distributed .footer-left {
+        margin-bottom: 40px;
+    }
+
+    .footer-distributed form {
+        margin-top: 30px;
+    }
+
+    .footer-distributed form {
+        display: block;
+    }
+
+    .footer-distributed form button {
+        float: none;
+    }
+}

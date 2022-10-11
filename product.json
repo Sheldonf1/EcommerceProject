@@ -1,0 +1,74 @@
+[
+    {
+        "image": "/Images/Asta.png",
+        "type": "Demon Slayer Sword",
+        "price": "$139.99",
+        "description": "The Demon Slayer Sword is Asta’s first sword. It can cut through any magic with the edge of its blade and with its flat side, one can repel any magic attack, except for curse magic and poison."
+    },
+    {
+        "image": "Images/BlkExcalibur.png",
+        "type": "Black Excalibur",
+        "price": "179.99",
+        "description": "High Quality replica of the black Excalibur Sword. Used by Saber in the Fate Series"
+    },
+    {
+        "image": "Images/Cloud.png",
+        "type": "Buster Sword",
+        "price": "$119.99",
+        "description": "The sword on its own is massive 140 cm, like it should be, but still light enough to cary around on a convention."
+    },
+    {
+        "image": "Images/Ichigo.png",
+        "type": "Zangetsu",
+        "price": "$94.99",
+        "description": "Zangetsu is the manifested spirit of Ichigo Kurosaki's Zanpakutō as well as his inner Hollow."
+    },
+    {
+        "image": "Images/Kenpachi.png",
+        "type": "Nozarashi",
+        "price": "$79.99",
+        "description": "Using his Lawless Zanpakuto, Kenpachi cuts down the Hollow and his enemies with unprecedented force. He has no fear in a fight, seeking out only the strongest warriors, and almost wishing to die in battle."
+    },
+    {
+        "image": "Images/Killlakill.png",
+        "type": "Red Scissor",
+        "price": "$49.99",
+        "description": "Scissor blade from the popular anime Kill La Kill. This is the weapon of Ryoko Matoi and it is also known as Rending Scissors, the only Scissors that can cut the life fibers"
+    },
+    {
+        "image": "Images/Kirito.png",
+        "type": "Dark Repulser",
+        "price": "$139.99",
+        "description": " The Dark Repulser is similar to a longsword in style, and Kirito wields it with one hand, whilst holding the Elucidator in the other hand"
+    },
+    {
+        "image": "Images/Lostvayne.png",
+        "type": "Lostvayne",
+        "price": "$99.99",
+        "description": "This is the Demon sword Lostvayne , wielded by Meliodas in the anime Seven Deadly Sins"
+    },
+    {
+        "image": "Images/Sasuke.png",
+        "type": "Black Kusanagi",
+        "price": "$99.99",
+        "description": "High Quality Kusanagi sword of Sasuke from the Naruto anime."
+    },
+    {
+        "image": "Images/Tengen.png",
+        "type": "Amber Nichirin",
+        "price": "$169.99",
+        "description": "High Quality Metal replica of the 2 Amber Nichirin Blades"
+    },
+    {
+        "image": "Images/YinYang.png",
+        "type": "Yin Yang",
+        "price": "$169.99",
+        "description": "The weapon of Archer from the Anime series “Fate Stay Night” are the Yin Yang blades. They are made out of high-quality metal."
+    },
+    {
+        "image": "Images/Zoro.png",
+        "type": "Ichimonji/Sandai/Sushui",
+        "price": "$224.99",
+        "description": "Wado Ichimonji, Sandai Kitetsu and Sushui. Roronoa Zoro is a monstrously powerful swordsman who does not posses a Devil Fruit, instead using a unique sword style of his own creation in battle, known as 'Santoryu' wielding a sword in each hand along with one in the mouth."
+    }
+]
